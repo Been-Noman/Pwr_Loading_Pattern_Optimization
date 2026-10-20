@@ -1,4 +1,4 @@
-# PWR loading-pattern optimization
+# PWR loading pattern optimization
 
 **Research software accompanying** *PWR Loading Pattern Optimization Using a Convolutional Neural Network Surrogate with Conformal Safety Calibration and Annealing-Initialized Genetic Search*, by Noman Bin Morshed and Md. Ali Mahdi.
 
