@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research software, cite the accompanying manuscript
+  and consult the authors for the appropriate software citation.
+title: 'PWR loading-pattern optimization research code'
+type: software
+authors:
+  - family-names: Morshed
+    given-names: Noman Bin
+  - family-names: Mahdi
+    given-names: Md. Ali
+abstract: >-
+  Research scripts for static 2D PWR loading pattern generation,
+  OpenMC calculations, convolutional neural network surrogate modeling,
+  residual-based conformal safety calibration, and annealing-initialized
+  genetic and memetic search.

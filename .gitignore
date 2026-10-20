@@ -1,0 +1,57 @@
+# Local configuration and keys
+config.sh
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python and Python environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.DS_Store
+# Research runtime output, models, Monte Carlo statepoints
+run/
+results/generated/
+logs/
+output/
+outputs/
+checkpoints/
+models/
+artifacts/
+statepoint.*.h5
+summary.h5
+*.h5
+*.hdf5
+*.keras
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.parquet
+*.tar
+*.tar.gz
+*.zip
+
+# Preserve the historical SHA-256 pinned research source archive in Git
+!provenance/hash_locked_search_sources.zip
+# Data and private logs do not belong in this source release
+*.pid
+*.log
+ml_preflight_report.json
+*.sqlite
+*.db
+# Keep curated source snapshots / lightweight metadata if ever added
+!requirements-cnn.lock.txt
+
+# Local HPC configuration and Python build artifacts
+config.sh
+**/__pycache__/
+.pytest_cache/
