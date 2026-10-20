@@ -1,6 +1,6 @@
 # PWR loading pattern optimization
 
-**Research software accompanying** *PWR Loading Pattern Optimization Using a Convolutional Neural Network Surrogate with Conformal Safety Calibration and Annealing-Initialized Genetic Search*, by Noman Bin Morshed and Md. Ali Mahdi.
+**Research codes accompanying** *PWR Loading Pattern Optimization Using a Convolutional Neural Network Surrogate with Conformal Safety Calibration and Annealing-Initialized Genetic Search*, by Noman Bin Morshed and Md. Ali Mahdi.
 
 The study addresses a static, two-dimensional fuel loading problem for a 193-assembly pressurized water reactor. Candidate configurations satisfy fixed fuel inventory, radial zoning and assembly-neighborhood constraints. Simulated annealing (SA) and simulated quantum annealing (SQA) sample the constrained QUBO formulation and furnish initial configurations for genetic search. OpenMC transport calculations provide reference values of the effective multiplication factor, assembly radial peaking and radial pin-power peaking. A multi-output convolutional neural network (CNN) learns these quantities from the evaluated configurations, and active-learning rounds progressively enrich the training set with patterns encountered near the optimizer's operating region.
 
