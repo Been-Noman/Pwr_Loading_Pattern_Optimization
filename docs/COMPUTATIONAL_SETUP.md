@@ -33,7 +33,7 @@ The job numbering inside each directory records the order of the original comput
 
 ## Physical model and evaluation
 
-The reference transport setting in Section 2.4 uses BEAVRS-derived materials and ENDF/B-VII.1 cross sections. The physical screening limits of the static study are \(1.0 \leq k_{eff} \leq 1.2\), \(F_a \leq 2.0\) and \(F_{q,r} \leq 2.5\). Results refer to the planar transport model and its defined 2D radial power metrics.
+The reference transport setting in Section 2.4 uses BEAVRS-derived materials and ENDF/B-VII.1 cross sections. The physical screening limits of the static study are $1.0 \leq k_{eff} \leq 1.2$, $F_a \leq 2.0$ and $F_{q,r} \leq 2.5$. Results refer to the planar transport model and its defined 2D radial power metrics.
 
 ## Frozen scientific source
 

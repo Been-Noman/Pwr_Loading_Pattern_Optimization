@@ -45,4 +45,4 @@ The code is arranged by scientific role, not by the historical order in which in
 
 The scientific implementations originate from the supplied research backup. Python entrypoints have been given descriptive names and grouped by role; their computational methods have not been redesigned. Imports, file references and job launch paths have been adjusted to follow the new layout. The original paths and SHA-256 hashes are recorded in [`checksums/original_source_map.csv`](checksums/original_source_map.csv). The four original checksum-locked GA implementations are separately preserved in [`provenance/hash_locked_search_sources.zip`](provenance/hash_locked_search_sources.zip), alongside the clearly named implementations in `code/optimization/`.
 
-The numerical results below are those reported in the paper and its tables. The two-dimensional radial pin peaking factor used here, \(F_{q,r}\), is distinct from the three-dimensional licensing quantity \(F_q(z)\).
+The numerical results below are those reported in the paper and its tables. The two-dimensional radial pin peaking factor used here, $F_{q,r}$, is distinct from the three-dimensional licensing quantity $F_q(z)$.
